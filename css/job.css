@@ -1,0 +1,89 @@
+.policy_class{
+	position: relative;
+	text-align: center;
+	padding: 0px !important;
+	margin: 0 auto;
+	margin-bottom: 40px;
+	border: 1px solid rgba(45, 59, 86, .7);
+}
+.policy_class .policy_title{
+	padding: 0px;
+	width: 100%;
+	background: rgba(45, 59, 86, 1);
+}
+.policy_class .policy_title h4{
+	color: #fff;
+}
+.policy_class .policy_body p{
+	color: rgba(0, 0, 0, .8);
+	font-size: 20px;
+	line-height: 1.3rem;
+	padding-bottom: 5px;
+}
+
+
+.job_section .single_job{
+	position: relative;
+	border: 1px solid rgba(45, 59, 86, .2);
+	padding: 10px 30px;
+	box-shadow: 0px 10px 20px 0px rgba(42, 34, 123, .07);
+}
+.job_section .single_job p span{
+	margin-right: 20px;
+}
+.job_section .single_job p{
+	line-height: 1.3rem;
+}
+.job_section .single_job .single_job_article{
+	display: flex;
+}
+
+.job_section .single_job .single_job_article .single_job_article_p{
+	width: 80%;
+}
+.job_section .single_job .single_job_article .single_job_article_b{
+	width: 20%;
+	padding: 10px 20px;
+}
+.no_boder{
+	border:0;
+}
+
+@media (max-width: 990px) {
+  .job_section .single_job .single_job_article {
+    flex-direction: column;
+	  }
+	  .job_section .single_job .single_job_article .single_job_article_p{
+		width: 100%;
+		text-align: left;
+	}
+}
+@media only screen and (max-width: 989px){
+	.policy_class .policy_body p{
+		font-size: 18px;
+		line-height: 1.1rem;
+	}
+}
+@media only screen and (max-width: 579px){
+	.policy_class{
+		margin: 0 20px;
+		margin-bottom: 40px;
+	}
+}
+@media only screen and (max-width: 600px){
+	#job_details{
+		padding-top: 20px;
+	}
+}
+@media only screen and (max-width: 1150px){
+	.job_det_title{
+		font-size: 30px;
+	}
+}
+
+@media only screen and (max-width: 766px){
+	.job_det_title{
+		font-size: 24px;
+		margin-top: 20px;
+	}
+}
